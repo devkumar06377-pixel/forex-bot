@@ -1,11 +1,9 @@
 import aiohttp
 import asyncio
 import random
-import json
 from datetime import datetime, timezone
 import pytz
 from groq import Groq
-
 
 class ForexAnalyzer:
     def __init__(self, groq_api_key: str):
